@@ -1,0 +1,7 @@
+.imagebox {
+    display: flex;
+    flex-grow: 1;
+    &__image {
+        max-height: 300px;
+    }
+}

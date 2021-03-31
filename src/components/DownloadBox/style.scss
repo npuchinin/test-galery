@@ -1,0 +1,33 @@
+.downloadbox {
+    display: flex;
+    flex-grow: 10;
+    flex-direction: column;
+    justify-content: center;
+    &__button {
+        width: 100px;
+    }
+}
+
+.downloadmodal {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 50%;
+    left: 50%;
+    margin-top: -50vh;
+    margin-left: -50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    opacity: 0.8;
+    &__input {
+        height: 50px;
+        width: 97%;
+        margin: 10px;
+    }
+    &__button {
+        width: 80px;
+    }
+}
